@@ -1,0 +1,27 @@
+{
+  "name": "eslint-staged",
+  "version": "1.0.0",
+  "description": "Run eslint on staged changes.",
+  "main": "lint.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "precommit": "node ./lint.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nrn/eslint-staged.git"
+  },
+  "author": "Nick Niemeir <nick.niemeir@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nrn/eslint-staged/issues"
+  },
+  "homepage": "https://github.com/nrn/eslint-staged#readme",
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.1",
+    "eslint-plugin-standard": "^2.0.1",
+    "husky": "^0.13.1"
+  }
+}
