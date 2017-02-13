@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "Run eslint on staged changes.",
   "main": "index.js",
+  "bin": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "precommit": "node ./index.js"
+    "precommit": "./index.js"
   },
   "repository": {
     "type": "git",
