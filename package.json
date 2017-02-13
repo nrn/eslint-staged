@@ -2,10 +2,10 @@
   "name": "eslint-staged",
   "version": "1.0.0",
   "description": "Run eslint on staged changes.",
-  "main": "lint.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "precommit": "node ./lint.js"
+    "precommit": "node ./index.js"
   },
   "repository": {
     "type": "git",
