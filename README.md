@@ -5,7 +5,7 @@ A simple way to run eslint on staged changes.
 npm install --save-dev eslint-staged
 ```
 
-Pairs great with (husky)[npm.im/husky]. Install husky, and add a precommit
+Pairs great with [husky](npm.im/husky). Install husky, and add a precommit
 script to your package.json:
 
 ```
